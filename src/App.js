@@ -109,6 +109,7 @@ const Checkout = lazy(() => import("./pages/other/Checkout"));
 
 const NotFound = lazy(() => import("./pages/other/NotFound"));
 const Return = lazy(() => import("./pages/other/Return"));
+const FAQ = lazy(() => import("./pages/other/FAQ"));
 
 const App = (props) => {
   useEffect(() => {
@@ -418,10 +419,13 @@ const App = (props) => {
                   path={process.env.PUBLIC_URL + "/checkout"}
                   component={Checkout}
                 />
-                <Route
-                  
+                <Route                  
                   path={process.env.PUBLIC_URL + "/return"}
                   component={Return}
+                />
+                <Route                  
+                  path={process.env.PUBLIC_URL + "/faq"}
+                  component={FAQ}
                 />
                 <Route
                   path={process.env.PUBLIC_URL + "/not-found"}
