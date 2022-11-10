@@ -110,6 +110,9 @@ const Checkout = lazy(() => import("./pages/other/Checkout"));
 const NotFound = lazy(() => import("./pages/other/NotFound"));
 const Return = lazy(() => import("./pages/other/Return"));
 const FAQ = lazy(() => import("./pages/other/FAQ"));
+const RefundPolicy = lazy(() => import("./pages/other/RefundPolicy"));
+const SizeGuide = lazy(() => import("./pages/other/SizeGuide"));
+const StoreLocation = lazy(() => import("./pages/other/StoreLocation"));
 
 const App = (props) => {
   useEffect(() => {
@@ -430,6 +433,18 @@ const App = (props) => {
                 <Route
                   path={process.env.PUBLIC_URL + "/not-found"}
                   component={NotFound}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/refund-policy"}
+                  component={RefundPolicy}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/size-guide"}
+                  component={SizeGuide}
+                />
+                <Route
+                  path={process.env.PUBLIC_URL + "/store-location"}
+                  component={StoreLocation}
                 />
                 <Route exact component={NotFound} />
               </Switch>

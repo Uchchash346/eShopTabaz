@@ -72,7 +72,7 @@ const FooterOne = ({
                     <Link to={process.env.PUBLIC_URL + "/about"}>About us</Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>
+                    <Link to={process.env.PUBLIC_URL + "/store-location"}>
                       Store location
                     </Link>
                   </li>
@@ -111,12 +111,12 @@ const FooterOne = ({
                     <Link to={process.env.PUBLIC_URL + "/return"}>Returns</Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>
-                      Support Policy
+                    <Link to={process.env.PUBLIC_URL + "/refund-policy"}>
+                      Refund Policy
                     </Link>
                   </li>
                   <li>
-                    <Link to={process.env.PUBLIC_URL + "#/"}>Size guide</Link>
+                    <Link to={process.env.PUBLIC_URL + "/size-guide"}>Size guide</Link>
                   </li>
                   <li>
                     <Link to={process.env.PUBLIC_URL + "/faq"}>FAQs</Link>
