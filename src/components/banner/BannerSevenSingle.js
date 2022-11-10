@@ -12,7 +12,7 @@ const BannerSevenSingle = ({ data, spaceBottomClass }) => {
           <img src={process.env.PUBLIC_URL + data.image} alt="" />
         </Link>
         <div className="banner-content banner-pink">
-          <h3>{data.title}</h3>
+          <h3 className="text-light">{data.title}</h3>
           <h4>
             {data.subtitle} <span>{data.price}</span>
           </h4>
