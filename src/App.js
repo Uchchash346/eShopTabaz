@@ -63,30 +63,30 @@ const HomeFashionSeven = lazy(() => import("./pages/home/HomeFashionSeven"));
 
 // shop pages
 const ShopGridStandard = lazy(() => import("./pages/shop/ShopGridStandard"));
-const ShopGridFilter = lazy(() => import("./pages/shop/ShopGridFilter"));
-const ShopGridTwoColumn = lazy(() => import("./pages/shop/ShopGridTwoColumn"));
-const ShopGridNoSidebar = lazy(() => import("./pages/shop/ShopGridNoSidebar"));
-const ShopGridFullWidth = lazy(() => import("./pages/shop/ShopGridFullWidth"));
-const ShopGridRightSidebar = lazy(() =>
-  import("./pages/shop/ShopGridRightSidebar")
-);
-const ShopListStandard = lazy(() => import("./pages/shop/ShopListStandard"));
-const ShopListFullWidth = lazy(() => import("./pages/shop/ShopListFullWidth"));
-const ShopListTwoColumn = lazy(() => import("./pages/shop/ShopListTwoColumn"));
+// const ShopGridFilter = lazy(() => import("./pages/shop/ShopGridFilter"));
+// const ShopGridTwoColumn = lazy(() => import("./pages/shop/ShopGridTwoColumn"));
+// const ShopGridNoSidebar = lazy(() => import("./pages/shop/ShopGridNoSidebar"));
+// const ShopGridFullWidth = lazy(() => import("./pages/shop/ShopGridFullWidth"));
+// const ShopGridRightSidebar = lazy(() =>
+//   import("./pages/shop/ShopGridRightSidebar")
+// );
+// const ShopListStandard = lazy(() => import("./pages/shop/ShopListStandard"));
+// const ShopListFullWidth = lazy(() => import("./pages/shop/ShopListFullWidth"));
+// const ShopListTwoColumn = lazy(() => import("./pages/shop/ShopListTwoColumn"));
 
 // product pages
 const Product = lazy(() => import("./pages/shop-product/Product"));
 const ProductTabLeft = lazy(() =>
   import("./pages/shop-product/ProductTabLeft")
 );
-const ProductTabRight = lazy(() =>
-  import("./pages/shop-product/ProductTabRight")
-);
-const ProductSticky = lazy(() => import("./pages/shop-product/ProductSticky"));
-const ProductSlider = lazy(() => import("./pages/shop-product/ProductSlider"));
-const ProductFixedImage = lazy(() =>
-  import("./pages/shop-product/ProductFixedImage")
-);
+// const ProductTabRight = lazy(() =>
+//   import("./pages/shop-product/ProductTabRight")
+// );
+// const ProductSticky = lazy(() => import("./pages/shop-product/ProductSticky"));
+// const ProductSlider = lazy(() => import("./pages/shop-product/ProductSlider"));
+// const ProductFixedImage = lazy(() =>
+//   import("./pages/shop-product/ProductFixedImage")
+// );
 
 // blog pages
 const BlogStandard = lazy(() => import("./pages/blog/BlogStandard"));
