@@ -9114,6 +9114,11 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
+"react-accessible-accordion@^5.0.0":
+  "integrity" "sha512-MT2obYpTgLIIfPr9d7hEyvPB5rg8uJcHpgA83JSRlEUHvzH48+8HJPvzSs+nM+XprTugDgLfhozO5qyJpBvYRQ=="
+  "resolved" "https://registry.npmjs.org/react-accessible-accordion/-/react-accessible-accordion-5.0.0.tgz"
+  "version" "5.0.0"
+
 "react-app-polyfill@^1.0.4":
   "integrity" "sha512-OfBnObtnGgLGfweORmdZbyEz+3dgVePQBb3zipiaDsMHV1NpWm0rDFYIVXFV/AK+x4VIIfWHhrdMIeoTLyRr2g=="
   "resolved" "https://registry.npmjs.org/react-app-polyfill/-/react-app-polyfill-1.0.6.tgz"
