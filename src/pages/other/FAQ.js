@@ -16,7 +16,7 @@ const FAQ = () => {
     return (
         <Fragment>
             <LayoutOne>
-                <h1 className='text-center pt-5'>FAQ</h1>
+                <h1 className='text-center pt-5'>FAQs</h1>
                 <div className='container pt-3 pb-5'>
                     <Accordion allowZeroExpanded>
                         {/* Question 1 */}
